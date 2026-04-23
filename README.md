@@ -59,12 +59,17 @@ terraform-associate-004-prep/
 │   ├── 07-state-management.md
 │   ├── 08-configurations.md
 │   └── 09-cloud-enterprise.md
-├── labs/                           # Hands-on practice labs
+├── labs/                           # Hands-on practice labs (project)
 │   ├── lab-01-first-configuration/
 │   ├── lab-02-variables-locals/
 │   ├── lab-03-state-remote/
 │   ├── lab-04-modules-basics/
 │   └── lab-05-workspaces/
+├── course-labs/                    # Labs from external courses
+│   ├── README.md
+│   ├── lab-01/
+│   ├── lab-02/
+│   └── lab-03/
 ├── exam-topics/                    # Exam objectives mapping
 │   └── objectives-checklist.md
 ├── resources/                      # External resources & links
@@ -94,6 +99,7 @@ terraform-associate-004-prep/
 2. **Navigate through topics:**
    - Start with `notes/` for theoretical concepts
    - Practice with hands-on labs in `labs/`
+   - Add labs from external courses in `course-labs/`
    - Track progress using `exam-topics/objectives-checklist.md`
 
 3. **Run labs locally:**
