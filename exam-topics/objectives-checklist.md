@@ -1,155 +1,123 @@
 # Exam Objectives Checklist
 
-Use this checklist to track your progress through all 9 exam objectives for the Terraform Associate 004 certification.
+Use this checklist to track your progress through all 8 exam domains for the HashiCorp Certified Terraform Associate (004) certification.
 
 ---
 
-## 📊 Objective 1: IaC Concepts (11%)
+## Domain 1: Infrastructure as Code (IaC) with Terraform (~11%)
 
-- [ ] Understand Infrastructure as Code (IaC) principles
-- [ ] Explain advantages of IaC patterns
-- [ ] Differentiate between declarative and imperative approaches
-- [ ] Understand mutable vs immutable infrastructure
-- [ ] Explain idempotency concept
+- [ ] 1a: Explain what Infrastructure as Code (IaC) is
+- [ ] 1b: Describe the advantages of IaC patterns
+- [ ] 1c: Explain how Terraform manages multi-cloud, hybrid cloud, and service-agnostic workflows
 
-**Study Notes:** [01-infrastructure-as-code.md](../notes/01-infrastructure-as-code.md)
+**Study Notes:** [01-iac-concepts.md](../notes/01-iac-concepts.md)
 
 ---
 
-## 📊 Objective 2: Terraform Purpose (9%)
+## Domain 2: Terraform Fundamentals (~12%)
 
-- [ ] Understand Terraform's benefits vs other IaC
-- [ ] Explain multi-cloud and provider-agnostic capabilities
-- [ ] Differentiate Terraform editions (OSS, Cloud, Enterprise)
-- [ ] Understand when to use Terraform vs other tools
+- [ ] 2a: Install and version Terraform providers
+- [ ] 2b: Describe how Terraform uses providers
+- [ ] 2c: Write Terraform configuration using multiple providers
+- [ ] 2d: Explain how Terraform uses and manages state
 
-**Study Notes:** [02-terraform-purpose.md](../notes/02-terraform-purpose.md)
-
----
-
-## 📊 Objective 3: Terraform Basics (24%)
-
-- [ ] Understand HCL syntax (blocks, arguments, expressions)
-- [ ] Handle Terraform and provider versioning
-- [ ] Use provider plugins and multiple provider configurations
-- [ ] Describe variable types and variable scopes
-- [ ] Configure input and output variables
-- [ ] Use local values
-- [ ] Understand Terraform built-in functions
-- [ ] Use data sources
-- [ ] Configure resource dependencies (implicit and explicit)
-
-**Study Notes:** [03-terraform-basics.md](../notes/03-terraform-basics.md)
+**Study Notes:** [02-terraform-fundamentals.md](../notes/02-terraform-fundamentals.md)
 
 ---
 
-## 📊 Objective 4: Terraform CLI (12%)
+## Domain 3: Core Terraform Workflow (~9%)
 
-- [ ] Initialize Terraform with `terraform init`
-- [ ] Create execution plans with `terraform plan`
-- [ ] Apply changes with `terraform apply`
-- [ ] Destroy infrastructure with `terraform destroy`
-- [ ] Format code with `terraform fmt`
-- [ ] Validate configuration with `terraform validate`
-- [ ] Understand state commands (`list`, `show`, `mv`, `rm`, `pull`)
-- [ ] Use `terraform workspace` commands
-- [ ] Debug with `terraform console`
+- [ ] 3a: Describe the Terraform workflow (Write, Plan, Apply)
+- [ ] 3b: Initialize a Terraform working directory (terraform init)
+- [ ] 3c: Validate a Terraform configuration (terraform validate)
+- [ ] 3d: Generate and review an execution plan (terraform plan, dependency graph)
+- [ ] 3e: Apply changes to infrastructure (terraform apply)
+- [ ] 3f: Destroy Terraform-managed infrastructure (terraform destroy)
+- [ ] 3g: Apply formatting and style adjustments (terraform fmt)
 
-**Study Notes:** [04-cli-commands.md](../notes/04-cli-commands.md)
+**Study Notes:** [03-core-workflow.md](../notes/03-core-workflow.md)
 
 ---
 
-## 📊 Objective 5: Terraform Modules (15%)
+## Domain 4: Terraform Configuration (~22%)
 
-- [ ] Understand module structure and purpose
-- [ ] Call modules from local and remote sources
-- [ ] Pass inputs to modules
-- [ ] Access module outputs
-- [ ] Understand module versioning
-- [ ] Navigate Terraform Registry
-- [ ] Use public and private modules
-- [ ] Understand module scope and encapsulation
+- [ ] 4a: Use and differentiate resource and data blocks
+- [ ] 4b: Refer to resource attributes and create cross-resource references
+- [ ] 4c: Use variables and outputs
+- [ ] 4d: Understand and use complex types
+- [ ] 4e: Write dynamic configuration using expressions and functions
+- [ ] 4f: Define resource dependencies in configuration
+- [ ] 4g: Validate configuration using custom conditions (preconditions, postconditions, checks)
+- [ ] 4h: Understand best practices for managing sensitive data, including secrets management with Vault
+
+**Study Notes:** [04-terraform-configuration.md](../notes/04-terraform-configuration.md)
+
+---
+
+## Domain 5: Terraform Modules (~11%)
+
+- [ ] 5a: Explain how Terraform sources modules
+- [ ] 5b: Describe variable scope within modules
+- [ ] 5c: Use modules in configuration
+- [ ] 5d: Manage module versions
 
 **Study Notes:** [05-modules.md](../notes/05-modules.md)
 
 ---
 
-## 📊 Objective 6: Terraform Workflow (9%)
+## Domain 6: Terraform State Management (~13%)
 
-- [ ] Describe the core Terraform workflow
-- [ ] Initialize working directories
-- [ ] Write and modify configurations
-- [ ] Review execution plans
-- [ ] Apply and destroy changes
-- [ ] Understand when to use `terraform refresh`
+- [ ] 6a: Describe the local backend
+- [ ] 6b: Describe state locking
+- [ ] 6c: Configure remote state using the backend block
+- [ ] 6d: Manage resource drift and Terraform state (moved block, removed block, refresh-only mode, resource drift)
 
-**Study Notes:** [06-workflow.md](../notes/06-workflow.md)
+**Study Notes:** [06-state-management.md](../notes/06-state-management.md)
 
 ---
 
-## 📊 Objective 7: State Management (12%)
+## Domain 7: Maintain Infrastructure (~5%)
 
-- [ ] Understand the purpose of Terraform state
-- [ ] Differentiate local vs remote state
-- [ ] Configure remote backends (S3, Terraform Cloud, etc.)
-- [ ] Understand state locking
-- [ ] Use `terraform state` subcommands
-- [ ] Import existing resources with `terraform import`
-- [ ] Manage state drift
-- [ ] Secure state files (sensitive data)
+- [ ] 7a: Import existing infrastructure into your Terraform workspace
+- [ ] 7b: Use the CLI to inspect state (terraform state list, terraform show)
+- [ ] 7c: Describe when and how to use verbose logging (TF_LOG, TF_LOG_PATH)
 
-**Study Notes:** [07-state-management.md](../notes/07-state-management.md)
+**Study Notes:** [07-maintain-infrastructure.md](../notes/07-maintain-infrastructure.md)
 
 ---
 
-## 📊 Objective 8: Configurations (6%)
+## Domain 8: HCP Terraform (~5%)
 
-- [ ] Use built-in functions (string, numeric, collection)
-- [ ] Configure dynamic blocks
-- [ ] Use data sources to read existing infrastructure
-- [ ] Understand complex types (objects, tuples)
-- [ ] Use template files
-- [ ] Use `for_each` and `count` meta-arguments
+- [ ] 8a: Use HCP Terraform to create infrastructure (workspaces, remote operations)
+- [ ] 8b: Describe HCP Terraform collaboration and governance features (Explorer, Private Registry, Change requests, Policy enforcement, Projects, Health, Teams)
+- [ ] 8c: Describe how to organize and use HCP Terraform workspaces and projects (Run triggers, Variable sets, Projects)
+- [ ] 8d: Configure and use HCP Terraform integration (CLI-driven workflow, cloud block, migrate state, dynamic provider credentials)
 
-**Study Notes:** [08-configurations.md](../notes/08-configurations.md)
+**Study Notes:** [08-hcp-terraform.md](../notes/08-hcp-terraform.md)
 
 ---
 
-## 📊 Objective 9: Terraform Cloud/Enterprise (2%)
+## Progress Tracker
 
-- [ ] Understand Terraform Cloud features
-- [ ] Differentiate Cloud vs Enterprise
-- [ ] Describe benefits of remote execution
-- [ ] Understand Sentinel policies
-- [ ] Describe VCS integration
-- [ ] Understand workspace management
-
-**Study Notes:** [09-cloud-enterprise.md](../notes/09-cloud-enterprise.md)
-
----
-
-## 📈 Progress Tracker
-
-| Objective | Weight | Status | % Complete |
-|-----------|--------|--------|------------|
-| 1. IaC Concepts | 11% | ⬜ | 0% |
-| 2. Terraform Purpose | 9% | ⬜ | 0% |
-| 3. Terraform Basics | 24% | ⬜ | 0% |
-| 4. Terraform CLI | 12% | ⬜ | 0% |
-| 5. Modules | 15% | ⬜ | 0% |
-| 6. Workflow | 9% | ⬜ | 0% |
-| 7. State Management | 12% | ⬜ | 0% |
-| 8. Configurations | 6% | ⬜ | 0% |
-| 9. Cloud/Enterprise | 2% | ⬜ | 0% |
+| Domain | Weight | Status | % Complete |
+|--------|--------|--------|-----------|
+| 1. IaC Concepts | ~11% | ⬜ | 0% |
+| 2. Terraform Fundamentals | ~12% | ⬜ | 0% |
+| 3. Core Workflow | ~9% | ⬜ | 0% |
+| 4. Terraform Configuration | ~22% | ⬜ | 0% |
+| 5. Modules | ~11% | ⬜ | 0% |
+| 6. State Management | ~13% | ⬜ | 0% |
+| 7. Maintain Infrastructure | ~5% | ⬜ | 0% |
+| 8. HCP Terraform | ~5% | ⬜ | 0% |
 | **TOTAL** | **100%** | ⬜ | **0%** |
 
 **Legend:** ⬜ Not Started | 🟡 In Progress | ✅ Complete
 
 ---
 
-## 📝 Practice Exam Checklist
+## Practice Exam Checklist
 
-> 📘 **Udemy:** [HashiCorp Certified Terraform Associate 004 - Practice Exams](https://www.udemy.com/home/my-courses/learning/#:~:text=HashiCorp%20Certified%20Terraform%20Associate%20004%20%2D%20Practice%20Exams)  
+> Udemy: [HashiCorp Certified Terraform Associate 004 - Practice Exams](https://www.udemy.com/home/my-courses/learning/#:~:text=HashiCorp%20Certified%20Terraform%20Associate%20004%20%2D%20Practice%20Exams)
 > por **Bryan Krausen**
 
 - [ ] Practice Exam 1 (60 questions)
@@ -161,9 +129,9 @@ Use this checklist to track your progress through all 9 exam objectives for the 
 
 ---
 
-## 🎯 Pre-Exam Checklist
+## Pre-Exam Checklist
 
-- [ ] All 9 objectives reviewed
+- [ ] All 8 domains reviewed
 - [ ] All practice tests completed with >80%
 - [ ] Hands-on labs completed
 - [ ] Commands memorized
@@ -174,4 +142,4 @@ Use this checklist to track your progress through all 9 exam objectives for the 
 
 ---
 
-**Good luck on your exam! 🎓**
+**Good luck on your exam!**

@@ -12,10 +12,10 @@ A curated list of resources for Terraform Associate 004 exam preparation.
 - [Terraform CLI Documentation](https://developer.hashicorp.com/terraform/cli) - Commands reference
 - [Terraform Providers](https://registry.terraform.io/browse/providers) - Provider registry
 
-### Exam-Specific Resources
-- [Terraform Associate 003 Tutorial](https://developer.hashicorp.com/terraform/tutorials/certification-003) - HashiCorp's official prep
-- [Exam Study Guide](https://developer.hashicorp.com/terraform/tutorials/certification-003/associate-study-003) - Detailed study guide
-- [Sample Questions](https://developer.hashicorp.com/terraform/tutorials/certification-003/associate-questions) - Official practice questions
+### Exam-Specific Resources (004)
+- [Terraform Associate 004 Learning Path](https://developer.hashicorp.com/terraform/tutorials/certification-004/associate-study-004) - Official study guide
+- [Exam Content List (004)](https://developer.hashicorp.com/terraform/tutorials/certification-004/associate-review-004) - Detailed objectives
+- [Sample Questions (004)](https://developer.hashicorp.com/terraform/tutorials/certification-004/associate-questions-004) - Official practice questions
 
 ---
 
@@ -43,10 +43,10 @@ A curated list of resources for Terraform Associate 004 exam preparation.
   ⭐ Simulados escolhidos para este estudo - mesmo autor do curso de preparação
 
 - **ExamPro** - Terraform Associate course
-- **Whizlabs** - Terraform Associate 003/004 Practice Exams (alternativa)
+- **Whizlabs** - Terraform Associate Practice Exams (alternativa)
 
 ### Free Practice Questions
-- [Terraform Associate Sample Questions](https://developer.hashicorp.com/terraform/tutorials/certification-003/associate-questions)
+- [Terraform Associate Sample Questions (004)](https://developer.hashicorp.com/terraform/tutorials/certification-004/associate-questions-004)
 - [Exam Topics - Terraform](https://www.examtopics.com/exams/hashicorp/terraform-associate/)
 
 ---

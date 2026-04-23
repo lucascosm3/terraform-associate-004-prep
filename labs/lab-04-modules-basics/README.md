@@ -571,7 +571,7 @@ source = "s3::https://s3.amazonaws.com/bucket/modules/vpc.zip"
 
 1. **Create a database module** for RDS
 2. **Add validation** to module variables
-3. **Publish module** to Terraform Cloud private registry
+3. **Publish module** to HCP Terraform private registry
 4. **Create a composite module** that uses vpc + compute
 
 ---
