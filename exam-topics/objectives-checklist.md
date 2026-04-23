@@ -149,9 +149,12 @@ Use this checklist to track your progress through all 9 exam objectives for the 
 
 ## 📝 Practice Exam Checklist
 
-- [ ] Whizlabs Practice Test 1 (60 questions)
-- [ ] Whizlabs Practice Test 2 (60 questions)
-- [ ] Whizlabs Practice Test 3 (60 questions)
+> 📘 **Udemy:** [HashiCorp Certified Terraform Associate 004 - Practice Exams](https://www.udemy.com/home/my-courses/learning/#:~:text=HashiCorp%20Certified%20Terraform%20Associate%20004%20%2D%20Practice%20Exams)  
+> por **Bryan Krausen**
+
+- [ ] Practice Exam 1 (60 questions)
+- [ ] Practice Exam 2 (60 questions)
+- [ ] Practice Exam 3 (60 questions)
 - [ ] Review incorrect answers
 - [ ] Take practice test under timed conditions
 - [ ] Score consistently above 80%

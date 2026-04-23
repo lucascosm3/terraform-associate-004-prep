@@ -1,55 +1,57 @@
-# Terraform Associate 004 Certification Prep
+# Preparação para Certificação Terraform Associate 004
 
 [![Terraform Version](https://img.shields.io/badge/terraform-%3E%3D%201.0-blue)](https://www.terraform.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> 📚 Personal study repository for the **HashiCorp Certified: Terraform Associate (004)** exam
+> 📚 Repositório pessoal de estudos para o exame **HashiCorp Certified: Terraform Associate (004)**
 
 ---
 
-## 🎯 About This Repository
+## 🎯 Sobre Este Repositório
 
-This repository contains my notes, hands-on labs, and study resources for preparing the Terraform Associate 004 certification. The goal is to document the learning journey and provide practical examples for each exam objective.
+Este repositório contém minhas notas de estudo, laboratórios práticos e recursos para preparação da certificação Terraform Associate 004. O objetivo é documentar a jornada de aprendizado e fornecer exemplos práticos para cada objetivo do exame.
 
----
-
-## 📋 Exam Overview
-
-| Detail | Information |
-|--------|-------------|
-| **Certification** | HashiCorp Certified: Terraform Associate (004) |
-| **Duration** | 1 hour |
-| **Questions** | 50-60 multiple choice, multiple answer, true/false, fill in the blank |
-| **Passing Score** | ~70% |
-| **Price** | $70 USD + tax |
-| **Validity** | 2 years |
-| **Format** | Online proctored |
+**Nota:** Todo o conteúdo técnico (notas, labs e questões) está em inglês, pois a prova será realizada em inglês.
 
 ---
 
-## 📖 Exam Objectives
+## 📋 Visão Geral do Exame
 
-The exam covers **9 major domains**:
-
-| # | Domain | Weight |
-|---|--------|--------|
-| 1 | Infrastructure as Code (IaC) Concepts | 11% |
-| 2 | Terraform's Purpose (vs other IaC) | 9% |
-| 3 | Terraform Basics | 24% |
-| 4 | Terraform CLI | 12% |
-| 5 | Interact with Terraform Modules | 15% |
-| 6 | Navigate Terraform Workflow | 9% |
-| 7 | Implement and Maintain State | 12% |
-| 8 | Read, Generate, Modify Configurations | 6% |
-| 9 | Understand Terraform Cloud and Enterprise Capabilities | 2% |
+| Detalhe | Informação |
+|---------|------------|
+| **Certificação** | HashiCorp Certified: Terraform Associate (004) |
+| **Duração** | 1 hora |
+| **Questões** | 50-60 questões de múltipla escolha, múltiplas respostas, verdadeiro/falso, preenchimento |
+| **Nota de Corte** | ~70% |
+| **Preço** | $70 USD + impostos |
+| **Validade** | 2 anos |
+| **Formato** | Online supervisionado (proctored) |
 
 ---
 
-## 🗂️ Repository Structure
+## 📖 Objetivos do Exame
+
+O exame cobre **9 domínios principais**:
+
+| # | Domínio | Peso |
+|---|---------|------|
+| 1 | Conceitos de Infrastructure as Code (IaC) | 11% |
+| 2 | Propósito do Terraform (vs outros IaC) | 9% |
+| 3 | Fundamentos do Terraform | 24% |
+| 4 | CLI do Terraform | 12% |
+| 5 | Interação com Módulos Terraform | 15% |
+| 6 | Navegação no Workflow do Terraform | 9% |
+| 7 | Implementação e Manutenção de State | 12% |
+| 8 | Ler, Gerar e Modificar Configurações | 6% |
+| 9 | Capacidades do Terraform Cloud e Enterprise | 2% |
+
+---
+
+## 🗂️ Estrutura do Repositório
 
 ```
 terraform-associate-004-prep/
-├── notes/                          # Study notes by topic
+├── notes/                          # Notas de estudo por tópico (em inglês)
 │   ├── 01-infrastructure-as-code.md
 │   ├── 02-terraform-purpose.md
 │   ├── 03-terraform-basics.md
@@ -59,50 +61,50 @@ terraform-associate-004-prep/
 │   ├── 07-state-management.md
 │   ├── 08-configurations.md
 │   └── 09-cloud-enterprise.md
-├── labs/                           # Hands-on practice labs (project)
+├── labs/                           # Laboratórios práticos do projeto
 │   ├── lab-01-first-configuration/
 │   ├── lab-02-variables-locals/
 │   ├── lab-03-state-remote/
 │   ├── lab-04-modules-basics/
 │   └── lab-05-workspaces/
-├── course-labs/                    # Labs from external courses
+├── course-labs/                    # Laboratórios de cursos externos
 │   ├── README.md
 │   ├── lab-01/
 │   ├── lab-02/
 │   └── lab-03/
-├── exam-topics/                    # Exam objectives mapping
+├── exam-topics/                    # Mapeamento dos objetivos do exame
 │   └── objectives-checklist.md
-├── resources/                      # External resources & links
+├── resources/                      # Recursos externos e links
 │   └── useful-links.md
-├── README.md                       # This file
-└── LICENSE                         # MIT License
+├── README.md                       # Este arquivo
+└── LICENSE                         # Licença MIT
 ```
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Início Rápido
 
-### Prerequisites
+### Pré-requisitos
 
 - [Terraform CLI](https://developer.hashicorp.com/terraform/install) (v1.0+)
-- Text editor or IDE (VS Code with Terraform extension recommended)
-- Cloud provider account (AWS, Azure, or GCP) for labs
+- Editor de texto ou IDE (recomendado VS Code com extensão Terraform)
+- Conta de provedor cloud (AWS, Azure ou GCP) para os laboratórios
 
-### Using This Repository
+### Usando Este Repositório
 
-1. **Clone the repository:**
+1. **Clone o repositório:**
    ```bash
    git clone https://github.com/lucascosm3/terraform-associate-004-prep.git
    cd terraform-associate-004-prep
    ```
 
-2. **Navigate through topics:**
-   - Start with `notes/` for theoretical concepts
-   - Practice with hands-on labs in `labs/`
-   - Add labs from external courses in `course-labs/`
-   - Track progress using `exam-topics/objectives-checklist.md`
+2. **Navegue pelos tópicos:**
+   - Comece com `notes/` para conceitos teóricos
+   - Pratique com laboratórios em `labs/`
+   - Adicione laboratórios de cursos em `course-labs/`
+   - Acompanhe o progresso em `exam-topics/objectives-checklist.md`
 
-3. **Run labs locally:**
+3. **Execute os laboratórios localmente:**
    ```bash
    cd labs/lab-01-first-configuration
    terraform init
@@ -112,90 +114,98 @@ terraform-associate-004-prep/
 
 ---
 
-## 📝 Essential Commands Cheat Sheet
+## 📝 Cheat Sheet de Comandos Essenciais
 
 ```bash
-# Initialization
-terraform init                    # Initialize working directory
-terraform init -upgrade          # Upgrade provider versions
+# Inicialização
+terraform init                    # Inicializa o diretório de trabalho
+terraform init -upgrade          # Atualiza versões dos providers
 
-# Planning
-terraform plan                    # Preview changes
-terraform plan -out=tfplan        # Save plan to file
-terraform plan -destroy           # Preview destruction
+# Planejamento
+terraform plan                    # Visualiza mudanças
+terraform plan -out=tfplan        # Salva plano em arquivo
+terraform plan -destroy           # Visualiza destruição
 
-# Applying
-terraform apply                   # Apply changes
-terraform apply -auto-approve     # Apply without confirmation
-terraform apply tfplan            # Apply saved plan
+# Aplicação
+terraform apply                   # Aplica mudanças
+terraform apply -auto-approve     # Aplica sem confirmação
+terraform apply tfplan            # Aplica plano salvo
 
-# Destroying
-terraform destroy                 # Destroy infrastructure
-terraform destroy -auto-approve   # Destroy without confirmation
+# Destruição
+terraform destroy                 # Destrói infraestrutura
+terraform destroy -auto-approve   # Destrói sem confirmação
 
-# State Management
-terraform state list              # List resources in state
-terraform state show <resource>   # Show resource details
-terraform state pull              # View raw state file
+# Gerenciamento de State
+terraform state list              # Lista recursos no state
+terraform state show <resource>   # Mostra detalhes do recurso
+terraform state pull              # Visualiza arquivo state bruto
 
 # Workspace
-terraform workspace list          # List workspaces
-terraform workspace new <name>    # Create new workspace
-terraform workspace select <name> # Switch workspace
-terraform workspace delete <name> # Delete workspace
+terraform workspace list          # Lista workspaces
+terraform workspace new <name>    # Cria novo workspace
+terraform workspace select <name> # Muda workspace
+terraform workspace delete <name> # Deleta workspace
 
-# Formatting & Validation
-terraform fmt                     # Format configuration files
-terraform validate                # Validate configuration
-terraform providers               # Show provider requirements
+# Formatação e Validação
+terraform fmt                     # Formata arquivos de configuração
+terraform validate                # Valida configuração
+terraform providers               # Mostra requisitos de providers
 
-# Output & Console
-terraform output                  # Show outputs
-terraform console                 # Interactive console
+# Output e Console
+terraform output                  # Mostra outputs
+terraform console                 # Console interativo
 ```
 
 ---
 
-## 📚 Recommended Resources
+## 📚 Recursos Recomendados
 
-### Official Documentation
+### Documentação Oficial
 - [Terraform Documentation](https://developer.hashicorp.com/terraform/docs)
 - [Terraform Language Documentation](https://developer.hashicorp.com/terraform/language)
 - [Terraform CLI Documentation](https://developer.hashicorp.com/terraform/cli)
 
-### Practice & Study
+### Prática e Estudo
 - [HashiCorp Learn](https://developer.hashicorp.com/terraform/tutorials)
 - [Terraform Associate 004 Exam Review](https://developer.hashicorp.com/terraform/tutorials/certification-003)
 - [Exam Study Guide](https://developer.hashicorp.com/terraform/tutorials/certification-003/associate-study-003)
 
-### Practice Exams
-- Whizlabs Terraform Associate Practice Tests
-- Udemy - Terraform Practice Exams (Bryan Krausen)
+### Simulados de Prova (Practice Exams)
+
+O simulado será realizado na Udemy:
+
+📘 **[HashiCorp Certified Terraform Associate 004 - Practice Exams](https://www.udemy.com/home/my-courses/learning/#:~:text=HashiCorp%20Certified%20Terraform%20Associate%20004%20%2D%20Practice%20Exams)**  
+por **Bryan Krausen**
+
+- Mesmo autor do curso de preparação
+- Múltiplos simulados completos
+- Explicações detalhadas das respostas
+- Formato semelhante à prova real
 
 ---
 
-## ✅ Progress Tracker
+## ✅ Acompanhamento de Progresso
 
-Track your study progress in [`exam-topics/objectives-checklist.md`](exam-topics/objectives-checklist.md)
-
----
-
-## 🤝 Contributing
-
-This is a personal study repository, but suggestions and corrections are welcome! Feel free to open an issue or submit a PR.
+Acompanhe seu progresso de estudos em [`exam-topics/objectives-checklist.md`](exam-topics/objectives-checklist.md)
 
 ---
 
-## 📄 License
+## 🤝 Contribuição
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Este é um repositório pessoal de estudos, mas sugestões e correções são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um PR.
 
 ---
 
-## 🎓 Certification Path
+## 📄 Licença
+
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+
+---
+
+## 🎓 Caminho para a Certificação
 
 ```
-Study Notes → Hands-on Labs → Practice Exams → Pass Certification! 🎉
+Notas de Estudo → Laboratórios Práticos → Simulados → Passar na Certificação! 🎉
 ```
 
-**Good luck with your Terraform Associate 004 journey! 🚀**
+**Boa sorte na sua jornada para a certificação Terraform Associate 004! 🚀**

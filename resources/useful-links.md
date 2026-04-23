@@ -37,10 +37,13 @@ A curated list of resources for Terraform Associate 004 exam preparation.
 
 ## 📝 Practice Exams
 
-### Recommended Practice Tests
-- **Whizlabs** - Terraform Associate 003/004 Practice Exams
-- **Bryan Krausen (Udemy)** - Practice Exams with explanations
+### Simulados Recomendados
+- **🎯 Udemy - Bryan Krausen (Principal)**  
+  [HashiCorp Certified Terraform Associate 004 - Practice Exams](https://www.udemy.com/home/my-courses/learning/#:~:text=HashiCorp%20Certified%20Terraform%20Associate%20004%20%2D%20Practice%20Exams)  
+  ⭐ Simulados escolhidos para este estudo - mesmo autor do curso de preparação
+
 - **ExamPro** - Terraform Associate course
+- **Whizlabs** - Terraform Associate 003/004 Practice Exams (alternativa)
 
 ### Free Practice Questions
 - [Terraform Associate Sample Questions](https://developer.hashicorp.com/terraform/tutorials/certification-003/associate-questions)
